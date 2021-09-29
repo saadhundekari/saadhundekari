@@ -1,0 +1,9 @@
+<div class = "my-3">
+<ul *ngFor="let todo of todos">
+   <h3><li>{{todo.sno}} - {{todo.title}} - {{todo.desc}}</li></h3>
+   <p><li> {{todo.desc}}</li></p>
+   <button class= "btn btn- danger" (click)="onclick(todo)">Delete</button>
+</ul>
+</div>
+
+
